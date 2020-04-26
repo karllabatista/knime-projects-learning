@@ -1,0 +1,26 @@
+
+{
+    "type":"object",
+    "properties":{
+        "column-filter-326":{
+            "type":"object",
+            "properties":{
+                "columns":{
+                    "type":"array",
+                    "items":{
+                        "type":"string",
+                        "default":"Document"
+                    }
+                }
+            },
+            "description":"Enter Description",
+            "example":{
+                "columns":[
+                    "Document",
+                    "Doc mais similar - Document",
+                    "similarity"
+                ]
+            }
+        }
+    }
+}
